@@ -1,0 +1,25 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mfagri/Desktop/push_swap'
+cc -Wall -Wextra -Werror -c utils.c -o utils.o
+cc -Wall -Wextra -Werror -c operation.c -o operation.o
+cc -Wall -Wextra -Werror -c moves.c -o moves.o
+cc -Wall -Wextra -Werror -c sort_small_nb.c -o sort_small_nb.o
+cc -Wall -Wextra -Werror -c ft_atoi.c -o ft_atoi.o
+cc -Wall -Wextra -Werror -c ft_isdigit.c -o ft_isdigit.o
+cc -Wall -Wextra -Werror -c ft_split.c -o ft_split.o
+cc -Wall -Wextra -Werror -c ft_strjoin.c -o ft_strjoin.o
+cc -Wall -Wextra -Werror -c ft_calloc.c -o ft_calloc.o
+cc -Wall -Wextra -Werror -c ft_bzero.c -o ft_bzero.o
+cc -Wall -Wextra -Werror -c ft_strlcat.c -o ft_strlcat.o
+cc -Wall -Wextra -Werror -c ft_strlcpy.c -o ft_strlcpy.o
+cc -Wall -Wextra -Werror -c get_next.c -o get_next.o
+cc -Wall -Wextra -Werror -c sort2.c -o sort2.o
+cc -Wall -Wextra -Werror -c utils2.c -o utils2.o
+cc -Wall -Wextra -Werror -c ft_strlen.c -o ft_strlen.o
+cc -Wall -Wextra -Werror -c utils3.c -o utils3.o
+cc -Wall -Wextra -Werror -c longest_increasing_sub.c -o longest_increasing_sub.o
+cc -Wall -Wextra -Werror -c args.c -o args.o
+cc -Wall -Wextra -Werror -c push_swap.c -o push_swap.o
+cc -Wall -Wextra -Werror utils.o operation.o moves.o sort_small_nb.o ft_atoi.o ft_isdigit.o ft_split.o ft_strjoin.o ft_calloc.o ft_bzero.o ft_strlcat.o ft_strlcpy.o get_next.o sort2.o utils2.o ft_strlen.o utils3.o longest_increasing_sub.o args.o push_swap.o -o push_swap
+make: Leaving directory `/Users/mfagri/Desktop/push_swap'
+ 

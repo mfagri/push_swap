@@ -6,7 +6,7 @@
 /*   By: mfagri <mfagri@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 13:33:03 by mfagri            #+#    #+#             */
-/*   Updated: 2022/02/23 17:43:25 by mfagri           ###   ########.fr       */
+/*   Updated: 2022/05/25 21:43:27 by mfagri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	is_sorted(t_p1 *stack)
 
 	i = 0;
 	nb = stack->arry[i];
-	while (i < stack->top)
+	while (i <= stack->top)
 	{
 		if (nb < stack->arry[i])
 			return (0);
